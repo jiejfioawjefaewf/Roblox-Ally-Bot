@@ -25,7 +25,7 @@ def Logo():
 def Options():
    print(Style.RESET_ALL)
    print("[" + Fore.GREEN + "1" + Style.RESET_ALL + "] Roblox Ally Bot")
-   Options = input("Enter your choice: ")
+   Option = input("Enter your choice: ")
    return int(Option)
 
 def return_Proxies():
